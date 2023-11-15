@@ -1,0 +1,57 @@
+table{
+    border: 2px solid gray;
+    border-collapse: collapse ;
+}
+tr, th, td{
+    padding: 10px;
+    border: 1px solid gray;
+    border-collapse: collapse ;
+    text-align: center;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.purple{
+    background-color: purple;
+}
+.bold{
+    font-weight: bold ;
+}
+.italic{
+    font-style: italic;
+}
+.italicl{
+    text-align: left;
+    font-style: italic;
+}
+.italiclb{
+    text-align: left;
+    font-weight: bold;
+    font-style: italic;
+}
+.relative{
+    position: relative;
+}
+.small{
+    border: none;
+    position: absolute;
+    top: -1px;
+    left: 80px;
+    background-color: yellow;
+    display: inline;
+}
+.small td{
+    border: none;
+}
+.two{
+    height: 22px;
+}
